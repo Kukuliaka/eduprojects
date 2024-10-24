@@ -2353,8 +2353,6 @@ body {
   }
   .questions__title {
     flex: 1 1 auto;
-    -webkit-padding-after: 2.8125rem;
-    padding-block-end: 2.8125rem
   }
   .questions__content {
     flex-basis: auto
