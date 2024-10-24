@@ -347,7 +347,7 @@ body {
   flex-direction: column;
   row-gap: 1.5rem;
   -webkit-padding-before: min(max(0,0 + 80*(100vw - 768px)/472),5rem);
-  padding-block-start: min(max(0,0 + 80*(100vw - 768px)/472),5rem);
+  padding-top: min(max(0,0 + 80*(100vw - 768px)/472),5rem);
   -webkit-padding-after: min(max(.625rem,.625rem + 105*(100vw - 768px)/472),7.1875rem);
   padding-block-end: min(max(.625rem,.625rem + 105*(100vw - 768px)/472),7.1875rem)
 }
