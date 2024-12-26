@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>ContactPage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20241226204458">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="100" data-scroll-show class="header">
+			<div data-watch class="header__container">
+				<a href="home.html" class="header__logo">
+					<img src="img/header/logo_header.svg" alt="logo cookie">
+				</a>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a data-goto-header data-goto=".collection" href="home.html" class="menu__link">
+									Cookies
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="home.html" data-goto-header data-goto=".location" class="menu__link">
+									Locations
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="story.html" class="menu__link">
+									About
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="jobs.html" class="menu__link">
+									Jobs
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="catering.html" class="menu__link">
+									Catering
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="franchising.html" class="menu__link">
+									Franchise
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__contact-form contact-form">
+				<div data-watch data-watch-threshold="0.2" class="contact-form__watcher">
+					<div class="contact-form__top">
+						<div class="contact-form__container">
+							<h1 class="contact-form__main-title main-title">
+								Contact <span>Cookie Couture</span>
+							</h1>
+							<div class="contact-form__text">
+								<p>
+									Ask for more information using this form. We will get in touch with you.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="contact-form__bottom">
+						<div class="contact-form__box">
+							<form data-ajax class="contact-form__form form" action="#">
+								<div class="form__checkbox checkbox">
+									<h6 class="checkbox__title title-form">Topic*</h6>
+									<label class="checkbox__label" for="checkbox-item-01">
+										<input checked id="checkbox-item-01" class="checkbox__input" name="form[]" value="jobs" type="checkbox">
+										<span class="checkbox__text">Jobs</span>
+									</label>
+									<label class="checkbox__label" for="checkbox-item-02">
+										<input id="checkbox-item-02" class="checkbox__input" name="form[]" value="franchise" type="checkbox">
+										<span class="checkbox__text">Franchise</span>
+									</label>
+									<label class="checkbox__label" for="checkbox-item-03">
+										<input id="checkbox-item-03" class="checkbox__input" name="form[]" value="catering" type="checkbox">
+										<span class="checkbox__text">Catering</span>
+									</label>
+									<label class="checkbox__label" for="checkbox-item-04">
+										<input id="checkbox-item-04" class="checkbox__input" name="form[]" value="media&press" type="checkbox">
+										<span class="checkbox__text">Media & Press</span>
+									</label>
+									<label class="checkbox__label" for="checkbox-item-05">
+										<input id="checkbox-item-05" class="checkbox__input" name="form[]" value="others" type="checkbox">
+										<span class="checkbox__text">Others</span>
+									</label>
+								</div>
+								<div class="form__user-date">
+									<div class="form__line">
+										<h6 class="form__title title-form">Name*</h6>
+										<input required class="form__input input" placeholder="Your name" type="text" name="form[]">
+									</div>
+									<div class="form__line">
+										<h6 class="form__title title-form">Email*</h6>
+										<input required class="form__input input" placeholder="Your email" type="email" name="form[]">
+									</div>
+									<div class="form__line">
+										<h6 class="form__title title-form">Phone*</h6>
+										<input required class="form__input input" placeholder="Your phone number" type="tel" name="form[]">
+									</div>
+								</div>
+								<div class="form__line">
+									<h6 class="form__title title-form">Message*</h6>
+									<textarea required name="form[]" placeholder="Your message" class="form__area area"></textarea>
+								</div>
+								<div class="form__checkbox checkbox">
+									<label class="checkbox__label" for="checkbox-item">
+										<input required id="checkbox-item" class="checkbox__input" name="form[]" value="yes" type="checkbox">
+										<span class="checkbox__text">By providing my data, I agree that cookie
+											couture may contact me and I agree to the terms and conditions and
+											privacy policy.*</span>
+									</label>
+								</div>
+								<div class="g-recaptcha" data-sitekey="6Lddbp8qAAAAAObTBlBw9eiWjolWaAshyAb5VEJ0"></div>
+								<button class="form__button" type="submit">
+									<span>Submit</span>
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+
+			</section>
+		</main>
+		<footer class="footer">
+			<div data-watch data-watch-threshold="0.5" class="footer__container">
+				<div class="footer__top top-footer">
+					<a class="top-footer__link-logo" href="home.html">
+						<img src="img/footer/logo_footer.svg" alt="logo cookie">
+					</a>
+					<div class="top-footer__menu menu-top-footer">
+						<nav class="menu-top-footer__body">
+							<ul class="menu-top-footer__list">
+								<li class="menu-top-footer__item">
+									<a href="contact.html" class="menu-top-footer__link">
+										Contact
+									</a>
+								</li>
+								<li class="menu-top-footer__item">
+									<a href="imprint.html" class="menu-top-footer__link">
+										Press
+									</a>
+								</li>
+								<li class="menu-top-footer__item">
+									<a href="jobs.html" class="menu-top-footer__link">
+										Jobs
+									</a>
+								</li>
+								<li class="menu-top-footer__item">
+									<a href="franchising.html" class="menu-top-footer__link">
+										Franchise
+									</a>
+								</li>
+							</ul>
+							<ul class="menu-top-footer__list">
+								<li class="menu-top-footer__item">
+									<a href="story.html" class="menu-top-footer__link">
+										About Us
+									</a>
+								</li>
+								<li class="menu-top-footer__item">
+									<a data-goto=".collection" href="#" class="menu-top-footer__link">
+										Cookie Menu
+									</a>
+								</li>
+								<li class="menu-top-footer__item">
+									<a data-goto=".location" href="#" class="menu-top-footer__link">
+										Locations
+									</a>
+								</li>
+								<li class="menu-top-footer__item">
+									<a href="catering.html" class="menu-top-footer__link">
+										Catering
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="top-footer__language">
+						<button type="button" class="top-footer__button-language">
+							DE
+						</button>
+						<button type="button" class="top-footer__button-language">
+							ENG
+						</button>
+					</div>
+				</div>
+				<div class="footer__bottom bottom-footer">
+					<div class="bottom-footer__public">
+						<div class="bottom-footer__label">
+							Follow us
+						</div>
+						<ul class="bottom-footer__list">
+							<li class="bottom-footer__item">
+								<a href="#" class="bottom-footer__link">
+									<img src="img/footer/instagram.svg" alt="icon instagram">
+								</a>
+							</li>
+							<li class="bottom-footer__item">
+								<a href="#" class="bottom-footer__link">
+									<img src="img/footer/tiktok.svg" alt="icon tiktok">
+								</a>
+							</li>
+							<li class="bottom-footer__item">
+								<a href="#" class="bottom-footer__link">
+									<img src="img/footer/linkedin.svg" alt="icon linkedin">
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="bottom-footer__source">
+						Impressum | Datenschutz
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src='https://www.google.com/recaptcha/api.js?_v=20241226204458'></script>
+	<script src="js/app.min.js?_v=20241226204458"></script>
+</body>
+
+</html>
