@@ -1,10 +1,4 @@
-@font-face {
-  font-family: avenir;
-  font-display: swap;
-  src: url(../fonts/avenir-medium.woff2) format("woff2");
-  font-weight: 500;
-  font-style: normal
-}
+
 @font-face {
   font-family: kollektif;
   font-display: swap;
