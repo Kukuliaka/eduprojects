@@ -41,7 +41,7 @@ html {
 }
 body {
   color: #000;
-  overflow: clip;
+  overflow: hidden;
   line-height: 1;
   font-family: Kollektif;
   font-size: 1.125rem;
