@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>ProductCard</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20250403194542">
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- NoUiSlider -->
+	<!-- <link rel="stylesheet" href="../nouislider.css?_v=20250403194542"> -->
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__mini-container">
+					<div data-da=".header__mini-container,991.98,2" class="header__logo">
+						<a class="header__link-logo" href="home.html">
+							SHOP.CO
+						</a>
+					</div>
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav id="nav" class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item menu__item--submenu">
+									<button aria-expanded="false" aria-controls="list" class="menu__link menu-button">
+										Shop <span></span>
+									</button>
+									<ul class="menu__sublist" id="list" aria-hidden="true">
+										<li class="menu__subitem">
+											<a href="#" tabindex="-1" class="menu__sublink">
+												Item_1
+											</a>
+										</li>
+										<li class="menu__subitem">
+											<a href="#" tabindex="-1" class="menu__sublink">
+												Item_2
+											</a>
+										</li>
+										<li class="menu__subitem">
+											<a href="#" tabindex="-1" class="menu__sublink">
+												Item_3
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">
+										On Sale
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" data-goto-header data-goto=".new" class="menu__link">
+										New Arrivals
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">
+										Brands
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<form data-no-validate class="header__search search-header" action="#">
+						<button type="submit" class="search-header__button _icon-search"></button>
+						<input placeholder="Search for products..." class="search-header__input input" type="text" autocomplete="off" required name="form[]">
+					</form>
+					<button class="header__button-search button-search _icon-search"></button>
+					<div class="header__activity">
+						<a href="cart.html" class="header__icon _icon-cart"></a>
+						<a href="#" class="header__icon _icon-login"></a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="page__product product">
+				<div class="product__container">
+					<div class="product__breadcrumbs breadcrumbs">
+						<a class="breadcrumbs__link" href="home.html">
+							Home <span class="_icon-tick_right"></span>
+						</a>
+						<a class="breadcrumbs__link" href="#">
+							Shop <span class="_icon-tick_right"></span>
+						</a>
+						<a class="breadcrumbs__link" href="#">
+							Men <span class="_icon-tick_right"></span>
+						</a>
+						<span class="breadcrumbs__link breadcrumbs__link--action" href="#">
+							T-shirts
+						</span>
+					</div>
+					<div class="product__main main-product">
+						<div class="main-product__swiper">
+							<div class="main-product__body-swiper">
+								<swiper-container class="my-swiper" thumbs-swiper=".my-swiper2" space-between="12">
+									<swiper-slide>
+										<img src="img/product/01.webp" alt="t-shirt">
+									</swiper-slide>
+									<swiper-slide>
+										<img src="img/product/02.webp" alt="t-shirt">
+									</swiper-slide>
+									<swiper-slide>
+										<img src="img/product/03.webp" alt="t-shirt">
+									</swiper-slide>
+									<swiper-slide>
+										<img src="img/product/01.webp" alt="t-shirt">
+									</swiper-slide>
+									<swiper-slide>
+										<img src="img/product/02.webp" alt="t-shirt">
+									</swiper-slide>
+									<swiper-slide>
+										<img src="img/product/03.webp" alt="t-shirt">
+									</swiper-slide>
+								</swiper-container>
+								<swiper-container class="my-swiper2" space-between="12" slides-per-view="3" free-mode="true" watch-slides-progress="true">
+									<swiper-slide>
+										<img src="img/product/01.webp" alt="t-shirt">
+									</swiper-slide>
+									<swiper-slide>
+										<img src="img/product/02.webp" alt="t-shirt">
+									</swiper-slide>
+									<swiper-slide>
+										<img src="img/product/03.webp" alt="t-shirt">
+									</swiper-slide>
+									<swiper-slide>
+										<img src="img/product/01.webp" alt="t-shirt">
+									</swiper-slide>
+									<swiper-slide>
+										<img src="img/product/02.webp" alt="t-shirt">
+									</swiper-slide>
+									<swiper-slide>
+										<img src="img/product/03.webp" alt="t-shirt">
+									</swiper-slide>
+								</swiper-container>
+							</div>
+						</div>
+						<div class="main-product__content content-main-product">
+							<h3 class="content-main-product__title title title--middle">
+								One Life Graphic T<span>-</span>shirt
+							</h3>
+							<div data-rating data-rating-value="4.5" data-rating-size="4.5" class="content-main-product__rating rating">
+								<div class="rating__value">4.5/<span>5</span></div>
+							</div>
+							<div class="content-main-product__price">
+								<span class="content-main-product__current-price">$260</span>
+								<span class="content-main-product__old-price">$300</span>
+								<span class="content-main-product__discount">-40%</span>
+							</div>
+							<div class="content-main-product__description">
+								<p>
+									This graphic t-shirt which is perfect for any occasion. Crafted from a
+									soft and breathable fabric, it offers superior comfort and style.
+								</p>
+							</div>
+							<form class="content-main-product__form form-content-main-product" method="post" enctype="multipart/form-data" action="#">
+								<div class="form-content-main-product__select-colors">
+									<div class="form-content-main-product__label">Select Colors</div>
+									<div class="form-content-main-product__options options">
+										<div class="options__item">
+											<input cheked id="color_1" class="options__input" checked type="radio" value="brown" name="color">
+											<label for="color_1" class="options__label options__label--circle options__label--brown"><span class="options__text"></span></label>
+										</div>
+										<div class="options__item">
+											<input id="color_2" class="options__input" type="radio" value="dark-green" name="color">
+											<label for="color_2" class="options__label options__label--circle options__label--dark-green"><span class="options__text"></span></label>
+										</div>
+										<div class="options__item">
+											<input id="color_3" class="options__input" type="radio" value="dark-blue" name="color">
+											<label for="color_3" class="options__label options__label--circle options__label--dark-blue"><span class="options__text"></span></label>
+										</div>
+									</div>
+								</div>
+								<div class="form-content-main-product__select-size">
+									<div class="form-content-main-product__label">Choose Size</div>
+									<div class="form-content-main-product__options options options--mini-gap">
+										<div class="options__item">
+											<input id="size_1" class="options__input" type="radio" value="small" name="size">
+											<label for="size_1" class="options__label options__label--big options__label--small"><span class="options__text"></span></label>
+										</div>
+										<div class="options__item">
+											<input checked id="size_2" class="options__input" type="radio" value="medium" name="size">
+											<label for="size_2" class="options__label options__label--big options__label--medium"><span class="options__text"></span></label>
+										</div>
+										<div class="options__item">
+											<input id="size_3" class="options__input" type="radio" value="large" name="size">
+											<label for="size_3" class="options__label options__label--big options__label--large"><span class="options__text"></span></label>
+										</div>
+										<div class="options__item">
+											<input id="size_4" class="options__input" type="radio" value="x-large" name="size">
+											<label for="size_4" class="options__label options__label--big options__label--x-large"><span class="options__text"></span></label>
+										</div>
+									</div>
+								</div>
+								<div class="form-content-main-product__actions">
+									<div data-quantity class="form-content-main-product__quantity quantity">
+										<button data-quantity-minus type="button" class="quantity__button quantity__button--minus"></button>
+										<div class="quantity__input">
+											<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+										</div>
+										<button data-quantity-plus type="button" class="quantity__button quantity__button--plus"></button>
+									</div>
+									<button type="button" class="form-content-main-product__button button button--black">Add to
+										Cart
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="page__description description">
+				<div class="description__container">
+					<div data-tabs class="description__tabs">
+						<nav data-tabs-titles class="description__navigation">
+							<button type="button" class="description__title">Product
+								description</button>
+							<button type="button" class="description__title _tab-active">Rating &
+								Reviews</button>
+							<button type="button" class="description__title">FAQs</button>
+						</nav>
+						<div data-tabs-body class="description__content">
+							<div class="description__body">
+								Content of the first tab
+							</div>
+							<div class="description__body">
+								<div class="description__top">
+									<h4 class="description__mini-title">All Reviews <span>(451)</span></h4>
+									<div class="description__actions">
+										<button type="button" class="description__filter button button--gray button--mini-padding _icon-filter"></button>
+										<button type="button" class="description__filter button button--gray button--mini-padding _icon-tick_down"><span>Latest</span></button>
+										<button type="button" class="description__filter button--mini-padding button button--black">Write
+											a Review</button>
+									</div>
+								</div>
+								<ul class="description__list list-description">
+									<li class="list-description__item">
+										<div class="list-description__top">
+											<div data-rating data-rating-value="4.5" class="list-description__rating rating"></div>
+											<button type="button" class="list-description__more _icon-dots"></button>
+										</div>
+										<div class="list-description__name _icon-check_green">
+											<a class="list-description__link-name title title--hover title--mini" href="#">Samantha D.</a>
+										</div>
+										<div class="list-description__text">
+											<p>
+												"As someone who's always on the lookout for unique fashion pieces, I'm
+												thrilled to have stumbled upon Shop.co. The selection of clothes is not
+												only diverse but also on-point with the latest trends.”
+											</p>
+										</div>
+										<time class="list-description__date">
+											Posted on August 14, 2023
+										</time>
+									</li>
+									<li class="list-description__item">
+										<div class="list-description__top">
+											<div data-rating data-rating-value="4" class="list-description__rating rating"></div>
+											<button type="button" class="list-description__more _icon-dots"></button>
+										</div>
+										<div class="list-description__name _icon-check_green">
+											<a class="list-description__link-name title title--hover title--mini" href="#">Alex M.</a>
+										</div>
+										<div class="list-description__text">
+											<p>
+												"The t-shirt exceeded my expectations! The colors are vibrant and the print quality is top-notch. Being a UI/UX designer myself, I'm quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me."
+											</p>
+										</div>
+										<time class="list-description__date">
+											Posted on August 15, 2023
+										</time>
+									</li>
+									<li class="list-description__item">
+										<div class="list-description__top">
+											<div data-rating data-rating-value="3.5" class="list-description__rating rating"></div>
+											<button type="button" class="list-description__more _icon-dots"></button>
+										</div>
+										<div class="list-description__name _icon-check_green">
+											<a class="list-description__link-name title title--hover title--mini" href="#">Ethan R.</a>
+										</div>
+										<div class="list-description__text">
+											<p>
+												"This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt."
+											</p>
+										</div>
+										<time class="list-description__date">
+											Posted on August 16, 2023
+										</time>
+									</li>
+									<li class="list-description__item">
+										<div class="list-description__top">
+											<div data-rating data-rating-value="4" class="list-description__rating rating"></div>
+											<button type="button" class="list-description__more _icon-dots"></button>
+										</div>
+										<div class="list-description__name _icon-check_green">
+											<a class="list-description__link-name title title--hover title--mini" href="#">Olivia P.</a>
+										</div>
+										<div class="list-description__text">
+											<p>
+												"As a UI/UX enthusiast, I value simplicity and functionality. This t-shirt not only represents those principles but also feels great to wear. It's evident that the designer poured their creativity into making this t-shirt stand out."
+											</p>
+										</div>
+										<time class="list-description__date">
+											Posted on August 17, 2023
+										</time>
+									</li>
+									<li class="list-description__item">
+										<div class="list-description__top">
+											<div data-rating data-rating-value="4" class="list-description__rating rating"></div>
+											<button type="button" class="list-description__more _icon-dots"></button>
+										</div>
+										<div class="list-description__name _icon-check_green">
+											<a class="list-description__link-name title title--hover title--mini" href="#">Liam K.</a>
+										</div>
+										<div class="list-description__text">
+											<p>
+												"This t-shirt is a fusion of comfort and creativity. The fabric is soft, and the design speaks volumes about the designer's skill. It's like wearing a piece of art that reflects my passion for both design and fashion."
+											</p>
+										</div>
+										<time class="list-description__date">
+											Posted on August 18, 2023
+										</time>
+									</li>
+									<li class="list-description__item">
+										<div class="list-description__top">
+											<div data-rating data-rating-value="4.5" class="list-description__rating rating"></div>
+											<button type="button" class="list-description__more _icon-dots"></button>
+										</div>
+										<div class="list-description__name _icon-check_green">
+											<a class="list-description__link-name title title--hover title--mini" href="#">Ava H.</a>
+										</div>
+										<div class="list-description__text">
+											<p>
+												"I'm not just wearing a t-shirt; I'm wearing a piece of design philosophy. The intricate description and thoughtful layout of the design make this shirt a conversation starter."
+											</p>
+										</div>
+										<time class="list-description__date">
+											Posted on August 19, 2023
+										</time>
+									</li>
+									<li class="list-description__item">
+										<div class="list-description__top">
+											<div data-rating data-rating-value="4.5" class="list-description__rating rating"></div>
+											<button type="button" class="list-description__more _icon-dots"></button>
+										</div>
+										<div class="list-description__name _icon-check_green">
+											<a class="list-description__link-name title title--hover title--mini" href="#">Samantha D.</a>
+										</div>
+										<div class="list-description__text">
+											<p>
+												"As someone who's always on the lookout for unique fashion pieces, I'm
+												thrilled to have stumbled upon Shop.co. The selection of clothes is not
+												only diverse but also on-point with the latest trends.”
+											</p>
+										</div>
+										<time class="list-description__date">
+											Posted on August 25, 2023
+										</time>
+									</li>
+									<li class="list-description__item">
+										<div class="list-description__top">
+											<div data-rating data-rating-value="4.5" class="list-description__rating rating"></div>
+											<button type="button" class="list-description__more _icon-dots"></button>
+										</div>
+										<div class="list-description__name _icon-check_green">
+											<a class="list-description__link-name title title--hover title--mini" href="#">Olivia P.</a>
+										</div>
+										<div class="list-description__text">
+											<p>
+												"The selection of clothes is not
+												only diverse but also on-point with the latest trends. As someone who's
+												always on the lookout for unique fashion pieces, I'm
+												thrilled to have stumbled upon Shop.co. The selection of clothes is not
+												only diverse but also on-point with the latest trends.”
+											</p>
+										</div>
+										<time class="list-description__date">
+											Posted on August 28, 2023
+										</time>
+									</li>
+								</ul>
+								<div class="description__bottom">
+									<button type="button" class="description__more button button--white button--border-gray">
+										<span>Load More Reviews</span>
+									</button>
+								</div>
+							</div>
+							<div class="description__body">
+								Content of the third tab
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="page__also also">
+				<div data-showmore class="also__container">
+					<h2 class="also__title title title--big title--center title--margin">
+						You might also like
+					</h2>
+					<div class="also__body">
+						<div class="also__content">
+							<article class="also__item item-card">
+								<a class="item-card__link-image" href="#">
+									<img class="item-card__image" data-src="img/also/01.webp" alt="polo">
+								</a>
+								<div class="item-card__info">
+									<h4 class="item-card__title">
+										<a class="item-card__link-title title title--mini title--hover" href="#">
+											Polo with Contrast Trims
+										</a>
+									</h4>
+									<div data-rating data-rating-value="4.0" data-rating-size="5" class="item-card__rating rating">
+										<div class="rating__value">4.0/<span>5</span></div>
+									</div>
+									<div class="item-card__price">
+										<span class="item-card__current-price">$212</span>
+										<span class="item-card__old-price">$242</span>
+										<span class="item-card__discount">-20%</span>
+									</div>
+								</div>
+							</article>
+							<article class="also__item item-card">
+								<a class="item-card__link-image" href="#">
+									<img class="item-card__image" data-src="img/also/02.webp" alt="t-shirt">
+								</a>
+								<div class="item-card__info">
+									<h4 class="item-card__title">
+										<a class="item-card__link-title title title--mini title--hover" href="#">
+											Gradient Graphic T-shirt
+										</a>
+									</h4>
+									<div data-rating data-rating-value="3.5" data-rating-size="5" class="item-card__rating rating">
+										<div class="rating__value">3.5/<span>5</span></div>
+									</div>
+									<div class="item-card__price">
+										<span class="item-card__current-price">$145</span>
+									</div>
+								</div>
+							</article>
+							<article class="also__item item-card">
+								<a class="item-card__link-image" href="#">
+									<img class="item-card__image" data-src="img/also/03.webp" alt="polo">
+								</a>
+								<div class="item-card__info">
+									<h4 class="item-card__title">
+										<a class="item-card__link-title title title--mini title--hover" href="#">
+											Polo with Tipping Details
+										</a>
+									</h4>
+									<div data-rating data-rating-value="4.5" data-rating-size="5" class="item-card__rating rating">
+										<div class="rating__value">4.5/<span>5</span></div>
+									</div>
+									<div class="item-card__price">
+										<span class="item-card__current-price">$180</span>
+										<span class="item-card__old-price"></span>
+									</div>
+								</div>
+							</article>
+							<article class="also__item item-card">
+								<a class="item-card__link-image" href="#">
+									<img class="item-card__image" data-src="img/also/04.webp" alt="t-shirt">
+								</a>
+								<div class="item-card__info">
+									<h4 class="item-card__title">
+										<a class="item-card__link-title title title--mini title--hover" href="#">
+											Black Striped T-shirt
+										</a>
+									</h4>
+									<div data-rating data-rating-value="5.0" data-rating-size="5" class="item-card__rating rating">
+										<div class="rating__value">5.0/<span>5</span></div>
+									</div>
+									<div class="item-card__price">
+										<span class="item-card__current-price">$120</span>
+										<span class="item-card__old-price">$150</span>
+										<span class="item-card__discount">-10%</span>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top top-footer">
+					<div class="top-footer__body">
+						<h3 class="top-footer__title title title--white title--middle">
+							STAY UPTO DATE ABOUT OUR LATEST OFFERS
+						</h3>
+						<form action="#" class="top-footer__form form-top-footer">
+							<input data-required type="email" name="form[]" placeholder="Enter your email address" required class="form-top-footer__input input">
+							<span class="form-top-footer__icon _icon-mail"></span>
+							<button type="submit" autocomplete="off" class="form-top-footer__button button button--white button--outline-black" name="form[data]">
+								Subscribe to Newsletter
+							</button>
+						</form>
+					</div>
+				</div>
+				<div class="footer__middle middle-footer">
+					<div class="middle-footer__body">
+						<div class="middle-footer__content">
+							<div class="middle-footer__logo">
+								<a href="#">SHOP.CO</a>
+							</div>
+							<div class="middle-footer__text">
+								<p>
+									We have clothes that suits your style and which you’re proud to wear.
+									From women to men.
+								</p>
+							</div>
+							<ul class="middle-footer__social social-middle-footer">
+								<li class="social-middle-footer__item">
+									<a href="#" target="_blank" class="social-middle-footer__link _icon-twitter"></a>
+								</li>
+								<li class="social-middle-footer__item">
+									<a href="#" target="_blank" class="social-middle-footer__link _icon-fb"></a>
+								</li>
+								<li class="social-middle-footer__item">
+									<a href="#" target="_blank" class="social-middle-footer__link _icon-instagram"></a>
+								</li>
+								<li class="social-middle-footer__item">
+									<a href="#" target="_blank" class="social-middle-footer__link _icon-github"></a>
+								</li>
+							</ul>
+						</div>
+						<div class="middle-footer__menu menu-middle-footer">
+							<div class="menu-middle-footer__body">
+								<ul class="menu-middle-footer__list">
+									<li class="menu-middle-footer__item">
+										<span>Company</span>
+										<ul class="menu-middle-footer__sublist">
+											<li class="menu-middle-footer__subitem">
+												<a class="menu-middle-footer__sublink" href="#">About</a>
+											</li>
+											<li class="menu-middle-footer__subitem">
+												<a class="menu-middle-footer__sublink" href="#">Features</a>
+											</li>
+											<li class="menu-middle-footer__subitem">
+												<a class="menu-middle-footer__sublink" href="#">Works</a>
+											</li>
+											<li class="menu-middle-footer__subitem">
+												<a class="menu-middle-footer__sublink" href="#">Career</a>
+											</li>
+										</ul>
+									</li>
+									<li class="menu-middle-footer__item">
+										<span>Help</span>
+										<ul class="menu-middle-footer__sublist">
+											<li class="menu-middle-footer__subitem">
+												<a class="menu-middle-footer__sublink" href="#">Customer
+													Support</a>
+											</li>
+											<li class="menu-middle-footer__subitem">
+												<a class="menu-middle-footer__sublink" href="#">Delivery
+													Details</a>
+											</li>
+											<li class="menu-middle-footer__subitem">
+												<a class="menu-middle-footer__sublink" href="#">Terms &
+													Conditions</a>
+											</li>
+											<li class="menu-middle-footer__subitem">
+												<a class="menu-middle-footer__sublink" href="#">Privacy
+													Policy</a>
+											</li>
+										</ul>
+									</li>
+									<li class="menu-middle-footer__item">
+										<span>FAQ</span>
+										<ul class="menu-middle-footer__sublist">
+											<li class="menu-middle-footer__subitem">
+												<a class="menu-middle-footer__sublink" href="#">Account</a>
+											</li>
+											<li class="menu-middle-footer__subitem">
+												<a class="menu-middle-footer__sublink" href="#">Manage
+													Deliveries</a>
+											</li>
+											<li class="menu-middle-footer__subitem">
+												<a class="menu-middle-footer__sublink" href="#">Orders</a>
+											</li>
+											<li class="menu-middle-footer__subitem">
+												<a class="menu-middle-footer__sublink" href="#">Payments</a>
+											</li>
+										</ul>
+									</li>
+									<li class="menu-middle-footer__item">
+										<span>Resources</span>
+										<ul class="menu-middle-footer__sublist">
+											<li class="menu-middle-footer__subitem">
+												<a class="menu-middle-footer__sublink" href="#">Free
+													eBooks</a>
+											</li>
+											<li class="menu-middle-footer__subitem">
+												<a class="menu-middle-footer__sublink" href="#">Development
+													Tutorial</a>
+											</li>
+											<li class="menu-middle-footer__subitem">
+												<a class="menu-middle-footer__sublink" href="#">How to -
+													Blog</a>
+											</li>
+											<li class="menu-middle-footer__subitem">
+												<a class="menu-middle-footer__sublink" href="#">Youtube
+													Playlist</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom bottom-footer">
+					<div class="bottom-footer__body">
+						<div class="bottom-footer__copyright">
+							Shop.co © 2000-2023, All Rights Reserved
+						</div>
+						<div class="bottom-footer__payment">
+							<div class="bottom-footer__image">
+								<img src="img/footer/01.svg" alt="Image">
+							</div>
+							<div class="bottom-footer__image">
+								<img src="img/footer/02.svg" alt="Image">
+							</div>
+							<div class="bottom-footer__image">
+								<img src="img/footer/03.svg" alt="Image">
+							</div>
+							<div class="bottom-footer__image">
+								<img src="img/footer/04.svg" alt="Image">
+							</div>
+							<div class="bottom-footer__image">
+								<img src="img/footer/05.svg" alt="Image">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<!-- Документація: https://template.fls.guru/template-docs/modul-preloader.html -->
+	<div id="fls-preloader">
+		<!-- Скріпт прелоадера -->
+		<script>
+			function preloader() {
+				const preloaderImages = document.querySelector('[data-preloader]') ? document.querySelectorAll('[data-preloader] img') : document.querySelectorAll('img');
+				const preloaderContainer = document.querySelector('#fls-preloader');
+				if (preloaderImages.length) {
+					const preloaderStyleTemplate = `
+				<style>
+					* {
+						padding: 0px;
+						margin: 0px;
+						border: 0px;
+						box-sizing: border-box;
+					}
+					/* Головний блок */
+					.fls-preloader{
+						pointer-events: none;
+						z-index: -1;
+						position: fixed;
+						width: 100%;
+						height: 100%;
+						top: 0;
+						left: 0;
+						display: flex;
+						justify-content:center;
+						align-items: center;
+					}
+					/* Блок з елементами */
+					.fls-preloader__body{
+						padding: 0.93rem;
+						max-width: 31.25rem;
+						display: flex;
+						flex-direction: column;
+					}
+					/* Блок з лічильником */
+					.fls-preloader__counter{
+						font-size: 10rem;
+					}
+					/* Прогресбар */
+					.fls-preloader__line{}
+					/* Лінія прогресбару */
+					.fls-preloader__line span{
+						display: inline-block;
+						transition: width 0.2s ease;
+						height: 0.8rem;
+						background-color: rgba(0, 0, 0, 0.10);
+					}
+					.lock body{
+						overflow: hidden;
+						touch-action: none;
+						overscroll-behavior: none;
+					}
+					.loading body>*:not(.fls-preloader){
+						opacity: 0;
+						visibility: hidden;
+					}
+					.loaded body>*:not(.fls-preloader){
+						transition: opacity 0.5s ease 0s;
+						opacity: 1;
+						visibility: visible;
+					}
+				</style>`;
+
+					document.head.insertAdjacentHTML("beforeend", preloaderStyleTemplate);
+
+					const preloaderTemplate = `
+					<div class="fls-preloader">
+						<div class="fls-preloader__body">
+							<div class="fls-preloader__counter">0%</div>
+							<div class="fls-preloader__line"><span></span></div>
+						</div>
+					</div>`;
+					document.body.insertAdjacentHTML("beforeend", preloaderTemplate);
+
+					const
+						preloader = document.querySelector('.fls-preloader'),
+						showPecentLoad = document.querySelector('.fls-preloader__counter'),
+						showLineLoad = document.querySelector('.fls-preloader__line span'),
+						htmlDocument = document.documentElement;
+
+					let imagesLoadedCount = counter = progress = 0;
+
+					htmlDocument.classList.add('loading');
+					htmlDocument.classList.add('lock');
+
+					preloaderImages.forEach(preloaderImage => {
+						const imgClone = document.createElement('img');
+						if (imgClone) {
+							imgClone.onload = imageLoaded;
+							imgClone.onerror = imageLoaded;
+							preloaderImage.dataset.src ? imgClone.src = preloaderImage.dataset.src : imgClone.src = preloaderImage.src;
+						}
+					});
+
+					function setValueProgress(progress) {
+						showPecentLoad ? showPecentLoad.innerText = `${progress}%` : null;
+						showLineLoad ? showLineLoad.style.width = `${progress}%` : null;
+					}
+					showPecentLoad ? setValueProgress(progress) : null;
+
+					function imageLoaded() {
+						imagesLoadedCount++;
+						progress = Math.round((100 / preloaderImages.length) * imagesLoadedCount);
+						const intervalId = setInterval(() => {
+							counter >= progress ? clearInterval(intervalId) : setValueProgress(++counter);
+							counter >= 100 ? addLoadedClass() : null;
+						}, 10);
+					}
+
+					function addLoadedClass() {
+						htmlDocument.classList.add('loaded');
+						htmlDocument.classList.remove('lock');
+						htmlDocument.classList.remove('loading');
+						setInterval(() => {
+							preloader.remove();
+							preloaderContainer.remove();
+						}, 100);
+					}
+				} else {
+					preloaderContainer.remove();
+				}
+			}
+			preloader();
+		</script>
+	</div>
+	<script src="js/app.min.js?_v=20250403194542"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js?_v=20250403194542"></script>
+</body>
+
+</html>
