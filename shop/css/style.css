@@ -240,7 +240,7 @@ body {
   position: relative
 }
 .checkbox:not(:last-child) {
-  margin-bottom: toRem(5)
+  margin-bottom: 5px;
 }
 .checkbox__input {
   position: absolute;
