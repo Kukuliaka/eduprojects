@@ -240,7 +240,7 @@ body {
   position: relative
 }
 .checkbox:not(:last-child) {
-  margin-bottom: em(5)
+  margin-bottom: toRem(5)
 }
 .checkbox__input {
   position: absolute;
@@ -1956,7 +1956,7 @@ swiper-container {
   text-align: left;
   border: none;
   padding: 0;
-  border-radius: none;
+  border-radius: 0;
   position: relative;
   list-style: none;
   font-family: Satoshi,sans-serif;
@@ -1970,7 +1970,7 @@ swiper-container {
 }
 .filter__form .spollers__body {
   padding: 1.5rem 0 0 0;
-  border-radius: none;
+  border-radius: 0;
   border: none
 }
 .filter__form .spollers__list {
