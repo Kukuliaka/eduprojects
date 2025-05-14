@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Home Page</title>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1747237845390"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1747237845390">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" data-fls-header-scroll-show="" class="header">
+				<div class="header__container">
+					<div data-fls-watcher="" data-fls-watcher-once="" class="header__logo">
+						<a href="#" class="header__link-logo">
+							<img src="./assets/img/header/logo.svg" alt="logo">
+							<span>Mulih</span>
+						</a>
+					</div>
+					<div class="header__menu menu">
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul data-fls-watcher="" data-fls-watcher-once="" class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link menu__link--active">Home</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Property</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">About</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Service</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Contact</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!--
+<fetch url="@components/layout/menu/menu.js?v=1747237845390on">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+					<div data-fls-watcher="" data-fls-watcher-once="" class="header__activity activity-header">
+						<a data-fls-action="" href="#" class="activity-header__link action action--grey action--min-on-mobile">Sign
+				in</a>
+						<a data-fls-action="" href="#" class="activity-header__link action action--min-on-mobile">Login</a>
+					</div>
+				</div>
+			</header>
+			<main class="page page--home">
+				<section data-fls-hero="" class="hero">
+					<div class="hero__container">
+						<div data-fls-watcher="" class="hero__content">
+							<div data-fls-category="" class="hero__category category">REAL ESTATE</div>
+							<h1 data-fls-title="" class="hero__title title title--big title--shadow">Let's hunt for your dream residence</h1>
+							<div data-fls-text="" class="hero__text text text--shadow">
+								<p>
+									Explore our range of beautiful properties with the addition of separate
+					accommodation suitable for you.
+								</p>
+							</div>
+							<div class="hero__body">
+								<div data-fls-tabs="" class="tabs">
+									<nav data-fls-tabs-titles="" class="tabs__navigation">
+										<button type="button" class="tabs__title --tab-active">Buy</button>
+										<button type="button" class="tabs__title">Rent</button>
+									</nav>
+									<form action="#" enctype="multipart/form-data" name="form[]">
+										<div data-fls-tabs-body="" class="tabs__content">
+											<div class="tabs__body">
+												<div class="tabs__box">
+													<div class="tabs__column">
+														<label for="location" class="tabs__label">Location</label>
+														<select class="tabs__select" name="form[]" id="location">
+															<option class="tabs__option" selected value="Bogor, Jawa Barat">Bogor,
+								Jawa
+								Barat</option>
+															<option class="tabs__option" value="Nassau, Bahamas">Nassau,
+								Bahamas</option>
+															<option class="tabs__option" value="Sanur, Bali">Sanur, Bali</option>
+														</select>
+													</div>
+													<div class="tabs__column">
+														<label for="type" class="tabs__label">Type</label>
+														<select class="tabs__select" name="form[]" id="location">
+															<option class="tabs__option" selected value="home">Home</option>
+															<option class="tabs__option" value="apartment">Apartment</option>
+														</select>
+													</div>
+													<div class="tabs__column">
+														<label for="price-range" class="tabs__label">Price Range</label>
+														<select class="tabs__select" name="form[]" id="location">
+															<option class="tabs__option" selected value="$200-$350">$200-$350</option>
+															<option class="tabs__option" value="$400-$750">$400-$750</option>
+															<option class="tabs__option" value="$800-$1000">$800-$1000</option>
+															<option class="tabs__option" value="$1000-$1500">$1000-$1500</option>
+														</select>
+													</div>
+													<button type="submit" class="tabs__button action action--width">Search</button>
+												</div>
+											</div>
+											<div class="tabs__body">
+												<div class="tabs__box">
+													<div class="tabs__column">
+														<label for="location" class="tabs__label">Location</label>
+														<select class="tabs__select" name="form[]" id="location">
+															<option class="tabs__option" value="Bogor, Jawa Barat">Bogor, Jawa
+								Barat</option>
+															<option class="tabs__option" value="Nassau, Bahamas">Nassau,
+								Bahamas</option>
+															<option class="tabs__option" selected value="Sanur, Bali">Sanur,
+								Bali</option>
+														</select>
+													</div>
+													<div class="tabs__column">
+														<label for="type" class="tabs__label">Type</label>
+														<select class="tabs__select" name="form[]" id="type">
+															<option class="tabs__option" selected value="Home">Home</option>
+															<option class="tabs__option" value="apartment">Apartment</option>
+														</select>
+													</div>
+													<div class="tabs__column">
+														<label for="price-range" class="tabs__label">Price Range</label>
+														<select class="tabs__select" name="form[]" id="price-range">
+															<option class="tabs__option" value="$200-$350">$200-$350</option>
+															<option class="tabs__option" value="$400-$750">$400-$750</option>
+															<option class="tabs__option" selected value="$800-$1000">$800-$1000</option>
+															<option class="tabs__option" value="$1000-$1500">$1000-$1500</option>
+														</select>
+													</div>
+													<button type="submit" class="tabs__button action action--width">Search</button>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div data-fls-watcher="" class="hero__image">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/hero/bg-hero-600.webp" type="image/webp">
+								<source media="(max-width: 1200px)" srcset="./assets/img/hero/bg-hero-1200.webp" type="image/webp">
+								<img alt="Image" src="./assets/img/hero/bg-hero.webp">
+							</picture>
+						</div>
+					</div>
+				</section>
+				<section data-fls-discover="" class="discover">
+					<div class="discover__container">
+						<div data-fls-watcher="" class="discover__top">
+							<div class="discover__category category">DISCOVER</div>
+							<h2 class="discover__title title title--middle">Best recomendation</h2>
+							<div class="discover__box">
+								<div class="discover__text text text--big-line-height">
+									<p>
+										Discover our exclusive selection of the finest one-of-a-kind luxury
+						properties architectural masterpieces.
+									</p>
+								</div>
+								<div data-fls-more="" class="discover__more more">
+									<a class="more__link" href="#">Learn More</a>
+								</div>
+							</div>
+						</div>
+						<div class="discover__content content-discover">
+							<div data-fls-watcher="" class="content-discover__body">
+								<article class="content-discover__card card-content-discover">
+									<div class="card-content-discover__image">
+										<a class="card-content-discover__img-link" href="#">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/discover/01-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/discover/01-1200.webp" type="image/webp">
+												<img alt="Image" src="./assets/img/discover/01.webp">
+											</picture>
+										</a>
+									</div>
+									<div class="card-content-discover__body">
+										<form action="#" enctype="multipart/form-data" name="form[]" class="card-content-discover__form">
+											<h4 class="card-content-discover__title">
+												<a href="#" class="card-content-discover__link-title">Perum griya
+									asri</a>
+											</h4>
+											<div class="card-content-discover__label">Bogor, Jawa Barat</div>
+											<div class="card-content-discover__info">
+												<div class="card-content-discover__price">$25,000</div>
+												<div class="card-content-discover__area">
+													<span>360m2</span>
+													Living
+									Area
+												</div>
+											</div>
+											<button type="submit" class="card-content-discover__button action action--white action--min-padding">Send
+								Inquiry</button>
+										</form>
+									</div>
+								</article>
+								<article class="content-discover__card card-content-discover">
+									<div class="card-content-discover__image">
+										<a class="card-content-discover__img-link" href="#">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/discover/02-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/discover/02-1200.webp" type="image/webp">
+												<img alt="Image" src="./assets/img/discover/02.webp">
+											</picture>
+										</a>
+									</div>
+									<div class="card-content-discover__body">
+										<form action="#" enctype="multipart/form-data" name="form[]" class="card-content-discover__form">
+											<h4 class="card-content-discover__title">
+												<a href="#" class="card-content-discover__link-title">Perum kencana
+									asri</a>
+											</h4>
+											<div class="card-content-discover__label">Bogor, Jawa Barat</div>
+											<div class="card-content-discover__info">
+												<div class="card-content-discover__price">$35,000</div>
+												<div class="card-content-discover__area">
+													<span>360m2</span>
+													Living
+									Area
+												</div>
+											</div>
+											<button type="submit" class="card-content-discover__button action action--white action--min-padding">Send
+								Inquiry</button>
+										</form>
+									</div>
+								</article>
+								<article class="content-discover__card card-content-discover">
+									<div class="card-content-discover__image">
+										<a class="card-content-discover__img-link" href="#">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/discover/03-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/discover/03-1200.webp" type="image/webp">
+												<img alt="Image" src="./assets/img/discover/03.webp">
+											</picture>
+										</a>
+									</div>
+									<div class="card-content-discover__body">
+										<form action="#" enctype="multipart/form-data" name="form[]" class="card-content-discover__form">
+											<h4 class="card-content-discover__title">
+												<a href="#" class="card-content-discover__link-title">Perum rakjel
+									elit</a>
+											</h4>
+											<div class="card-content-discover__label">Bogor, Jawa Barat</div>
+											<div class="card-content-discover__info">
+												<div class="card-content-discover__price">$40,000</div>
+												<div class="card-content-discover__area">
+													<span>360m2</span>
+													Living
+									Area
+												</div>
+											</div>
+											<button type="submit" class="card-content-discover__button action action--white action--min-padding">Send
+								Inquiry</button>
+										</form>
+									</div>
+								</article>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-advante="" class="advante">
+					<div class="advante__container">
+						<div data-fls-watcher="" class="advante__category category">OUR ADVANTE</div>
+						<h2 data-fls-watcher="" class="advante__title title title--middle">Giving you peace of mind</h2>
+						<div data-fls-watcher="" class="advante__body">
+							<div class="advante__column column-advante">
+								<div class="column-advante__image">
+									<img src="./assets/img/advante/heart.svg" alt="icon heart">
+								</div>
+								<h3 class="column-advante__title">Comfortable</h3>
+								<div class="column-advante__text text text--big-line-height">
+									<p>
+										Enjoy lifestyle amenities designed to provide every homeowners modern
+						comfort, a stone's throw away from schools, churches, and hospitals.
+									</p>
+								</div>
+							</div>
+							<div class="advante__column column-advante">
+								<div class="column-advante__image">
+									<img src="./assets/img/advante/shield.svg" alt="icon shield">
+								</div>
+								<h3 class="column-advante__title">Extra security</h3>
+								<div class="column-advante__text text text--big-line-height">
+									<p>
+										You can connect with potential tenants without having to share your phone
+						number. We also require all users to register to validate their
+						legitimacy.
+									</p>
+								</div>
+							</div>
+							<div class="advante__column column-advante">
+								<div class="column-advante__image">
+									<img src="./assets/img/advante/star.svg" alt="icon star">
+								</div>
+								<h3 class="column-advante__title">Luxury</h3>
+								<div class="column-advante__text text text--big-line-height">
+									<p>
+										Find out how we provide the highest standard of professional property
+						management to give you all the benefits of property.
+									</p>
+								</div>
+							</div>
+							<div class="advante__column column-advante">
+								<div class="column-advante__image">
+									<img src="./assets/img/advante/ticket.svg" alt="icon ticket">
+								</div>
+								<h3 class="column-advante__title">Best price</h3>
+								<div class="column-advante__text text text--big-line-height">
+									<p>
+										Not sure what you should be charging for your property? Let us do the
+						numbers for you—contact us today for a free rental appraisal on your home.
+									</p>
+								</div>
+							</div>
+							<div class="advante__column column-advante">
+								<div class="column-advante__image">
+									<img src="./assets/img/advante/location.svg" alt="icon location">
+								</div>
+								<h3 class="column-advante__title">Strategic location</h3>
+								<div class="column-advante__text text text--big-line-height">
+									<p>
+										located in the city center close to the shopping center. Very good for
+						areas surrounded by international education centers, start-up office
+						centers.
+									</p>
+								</div>
+							</div>
+							<div class="advante__column column-advante">
+								<div class="column-advante__image">
+									<img src="./assets/img/advante/graph.svg" alt="icon graph">
+								</div>
+								<h3 class="column-advante__title">Efficient</h3>
+								<div class="column-advante__text text text--big-line-height">
+									<p>
+										Schedule visits to multiple properties at once in one day without having
+						to call them one by one. Check everything and find the best properties for
+						rent
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-about="" class="about">
+					<div class="about__container">
+						<div data-fls-watcher="" class="about__picture picture-about">
+							<div class="picture-about__top">
+								<div class="picture-about__img">
+									<img src="./assets/img/icons/check-green.svg" alt="icon check">
+								</div>
+								<div class="picture-about__grade">4.8</div>
+								<div class="picture-about__stars">
+									<img src="./assets/img/icons/star.svg" alt="icon star">
+									<img src="./assets/img/icons/star.svg" alt="icon star">
+									<img src="./assets/img/icons/star.svg" alt="icon star">
+									<img src="./assets/img/icons/star.svg" alt="icon star">
+									<img src="./assets/img/icons/star.svg" alt="icon star">
+								</div>
+								<div class="picture-about__trust text">Trusted on</div>
+								<div class="picture-about__reviews text">500+ Reviews</div>
+							</div>
+							<div class="picture-about__image">
+								<picture>
+									<source media="(max-width: 600px)" srcset="./assets/img/about/living-room-600.webp" type="image/webp">
+									<source media="(max-width: 1200px)" srcset="./assets/img/about/living-room-1200.webp" type="image/webp">
+									<img alt="living-room" src="./assets/img/about/living-room.webp">
+								</picture>
+							</div>
+							<div class="picture-about__bottom">
+								<div class="picture-about__rating text text--big-line-height">
+									<span>250+</span>
+									Property
+									<br>
+									Sale
+								</div>
+								<div class="picture-about__rating text text--big-line-height">
+									<span>550+</span>
+									Apartmen
+									<br>
+									Rent
+								</div>
+							</div>
+						</div>
+						<div data-fls-watcher="" class="about__content">
+							<div class="about__category category">ABOUT US</div>
+							<h2 class="about__title title title--middle">How much is your property worth now?</h2>
+							<div class="about__text text text--big-line-height">
+								<p>
+									We have built our reputation as true local area experts. We have gained
+					more knowledge about buyer interests, our neighborhood and the market than
+					any other brand because we live locally and work for local people.
+								</p>
+							</div>
+							<a class="about__link action" href="#">Learn More</a>
+						</div>
+					</div>
+				</section>
+				<section data-fls-customer="" class="customer">
+					<div class="customer__container">
+						<div data-fls-watcher="" class="customer__category category">CUSTOMER TESTIMONIAL</div>
+						<div data-fls-watcher="" class="customer__box">
+							<h2 class="customer__title title title--middle">People say about us?</h2>
+							<div data-fls-more="" class="customer__more more">
+								<a class="more__link" href="#">Learn More</a>
+							</div>
+						</div>
+						<div data-fls-watcher="" class="customer__body">
+							<article class="customer__review review-customer">
+								<div class="review-customer__card">
+									<div class="review-customer__icon">
+										<img src="./assets/img/icons/quotes.svg" alt="Icon quotes">
+									</div>
+									<h5 class="review-customer__title">It proved to be exactly the kind of
+						home we wanted.</h5>
+									<div class="review-customer__text text">
+										<p>
+											We wish to express our thanks for your hard work in finding us a
+							temporary home, which proved to be exactly what we wanted.
+										</p>
+									</div>
+									<div class="review-customer__user-box">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/customer/01-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/customer/01-1200.webp" type="image/webp">
+											<img class="review-customer__img" alt="user photo" src="./assets/img/customer/01.webp">
+										</picture>
+										<div class="review-customer__info">
+											<div class="review-customer__name">Jaydon Aminoff</div>
+											<div class="review-customer__profession">UX Designer</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="customer__review review-customer">
+								<div class="review-customer__card">
+									<div class="review-customer__icon">
+										<img src="./assets/img/icons/quotes.svg" alt="Icon quotes">
+									</div>
+									<h5 class="review-customer__title">Nobody knows Portland and the peninsula better than David.</h5>
+									<div class="review-customer__text text">
+										<p>
+											My wife and I had a dream of downsizing from our house in Cape Elizabeth
+							into a small condo closer to where we work and play in Portland.
+										</p>
+									</div>
+									<div class="review-customer__user-box">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/customer/02-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/customer/02-1200.webp" type="image/webp">
+											<img class="review-customer__img" alt="user photo" src="./assets/img/customer/02.webp">
+										</picture>
+										<div class="review-customer__info">
+											<div class="review-customer__name">Alfredo Donin</div>
+											<div class="review-customer__profession">UI Designer</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="customer__review review-customer">
+								<div class="review-customer__card">
+									<div class="review-customer__icon">
+										<img src="./assets/img/icons/quotes.svg" alt="Icon quotes">
+									</div>
+									<h5 class="review-customer__title">He keeps his client’s best interests in sharp focus</h5>
+									<div class="review-customer__text text">
+										<p>
+											After working with David to sell my home in 2013, I was convinced that
+							he’s the only realtor I’ll ever need. Since then, I’ve bought two
+							properties and sold one.
+										</p>
+									</div>
+									<div class="review-customer__user-box">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/customer/03-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/customer/03-1200.webp" type="image/webp">
+											<img class="review-customer__img" alt="user photo" src="./assets/img/customer/03.webp">
+										</picture>
+										<div class="review-customer__info">
+											<div class="review-customer__name">Makenna Korsgaard</div>
+											<div class="review-customer__profession">UX Researcher</div>
+										</div>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-watcher="" data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__content">
+						<div class="footer__logo">
+							<a href="#" class="footer__link-logo">
+								<img src="./assets/img/header/logo.svg" alt="logo">
+								<span>Mulih</span>
+							</a>
+						</div>
+						<div class="footer__text">
+							<p>We have built our reputation as true local area experts.</p>
+						</div>
+						<div class="footer__title f-title">Newsletter</div>
+						<form name="form[]" class="footer__form form-footer" action="#">
+							<input data-required="" class="form-footer__input" name="form[]" type="email" placeholder="Input your email">
+							<button data-fls-action="" type="submit" class="form-footer__button action action--small">Send</button>
+						</form>
+					</div>
+					<div class="footer__body">
+						<div class="footer__menu menu-footer">
+							<ul class="menu-footer__list">
+								<span class="f-title">Service</span>
+								<li class="menu-footer__item">
+									<a href="#" class="menu-footer__link">About us</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="#" class="menu-footer__link">Careers</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="#" class="menu-footer__link">Terms & Conditions</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="#" class="menu-footer__link">Privacy & Policy</a>
+								</li>
+							</ul>
+							<ul class="menu-footer__list">
+								<span class="f-title">Community</span>
+								<li class="menu-footer__item">
+									<a href="#" class="menu-footer__link">Find agents</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="#" class="menu-footer__link">Lifestyle</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="#" class="menu-footer__link">Legal notic</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__social social-footer">
+							<div class="social-footer__label f-title">Follow us on</div>
+							<ul class="social-footer__list">
+								<li class="social-footer__item">
+									<a target="_blank" href="#" class="social-footer__link">
+										<img src="./assets/img/footer/instagram.svg" alt="instagram icon">
+									</a>
+								</li>
+								<li class="social-footer__item">
+									<a target="_blank" href="#" class="social-footer__link">
+										<img src="./assets/img/footer/youtube.svg" alt="youtube icon">
+									</a>
+								</li>
+								<li class="social-footer__item">
+									<a target="_blank" href="#" class="social-footer__link">
+										<img src="./assets/img/footer/facebook.svg" alt="facebook icon">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
