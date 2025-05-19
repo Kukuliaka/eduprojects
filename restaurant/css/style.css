@@ -139,7 +139,7 @@ body {
   -webkit-column-gap: 1.5rem;
   -moz-column-gap: 1.5rem;
   column-gap: 1.5rem;
-  row-gap: 1.25rem
+  row-gap: 1.5rem
 }
 .menu__link {
   line-height: 1.4;
@@ -1193,7 +1193,7 @@ body {
     align-items: flex-end
   }
   .menu__link {
-    font-size: 1.5rem
+    font-size: 1.9rem
   }
   .icon-menu {
     display: block;
